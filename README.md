@@ -16,7 +16,7 @@ The dataset contains 303 patient records with 13 clinical features and one targe
 
 ---
 
-## ⚙️ Methods
+##  Methods
 
 ### 1. Feature Engineering
 - Encoding categorical variables  
