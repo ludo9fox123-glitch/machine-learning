@@ -1,22 +1,18 @@
-# 🧠 Machine Learning – Heart Disease Clustering
+#  Machine Learning – Heart Disease Clustering
 
-## 📌 Overview
+## Overview
 This project explores **unsupervised machine learning techniques** to analyze patterns in a heart disease dataset.
 
 The goal is to group patients based on their clinical features and compare different clustering algorithms in terms of performance and interpretability.
 
 ---
 
-## 📊 Dataset
-The dataset contains medical attributes related to heart disease, including:
+## Dataset
+Work based on the Heart Disease dataset (processed.cleveland.data) from the UCI Machine Learning Repository available on:
 
-- `chol` – cholesterol level  
-- `thalach` – maximum heart rate achieved  
-- `exang` – exercise induced angina  
-- `oldpeak` – ST depression  
-- `ca` – number of major vessels  
-- `cp` – chest pain type  
-- `thal_*` – thalassemia-related features  
+https://archive.ics.uci.edu/dataset/45/heart+disease
+
+The dataset contains 303 patient records with 13 clinical features and one target variable. 
 
 ---
 
@@ -37,7 +33,7 @@ The dataset contains medical attributes related to heart disease, including:
 
 ---
 
-## 📈 Evaluation
+## Evaluation
 
 Even though clustering is unsupervised, we evaluate results using known labels:
 
@@ -49,7 +45,7 @@ Even though clustering is unsupervised, we evaluate results using known labels:
 
 ---
 
-## 🏆 Results
+##  Results
 
 - **K-Means** achieved the best overall performance  
 - **GMM** showed strong results and similar clustering structure  
@@ -59,7 +55,7 @@ All models showed a high level of agreement (ARI > 0.69), indicating similar pat
 
 ---
 
-## 📌 Key Insights
+##  Key Insights
 
 - Healthy patients are strongly associated with:
   - normal thalassemia (`thal_3`)
@@ -72,25 +68,13 @@ All models showed a high level of agreement (ARI > 0.69), indicating similar pat
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `ML_assignment.ipynb` → Full analysis notebook  
 
 ---
 
-## 🛠️ Technologies
-
-- Python  
-- pandas  
-- numpy  
-- matplotlib  
-- seaborn  
-- scikit-learn  
-- scipy  
-
----
-
-## 👤 Authored by :
+##  Authored by :
 
 **Ludovic Méan Touroyan et al.**
 LinkedIn: https://www.linkedin.com/in/ludovic-touroyan-4757613b4
